@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>This Show button will display hidden content</h2>
+
+<p id="demo" style="display:none">JavaScript can hide HTML elements.</p>
+<p id="demo2" style="display:none"><img src="full.jpeg" alt="img can't load"></p>
+
+<button type="button" onclick="showElements()">Show</button>
+
+<script>
+function showElements() {
+  document.getElementById('demo').style.display = 'block';
+  document.getElementById('demo2').style.display = 'block';
+}
+</script>
+
+</body>
+</html>

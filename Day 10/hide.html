@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>this Danger button will hide all the content of page</h2>
+
+<p id="demo">JavaScript can hide HTML elements.</p>
+<p id="demo2"><img src="full.jpeg" alt="img can't load"></p>
+
+<button type="button" onclick="hideElements()">Danger</button>
+
+<script>
+function hideElements() {
+  document.getElementById('demo').style.display = 'none';
+  document.getElementById('demo2').style.display = 'none';
+}
+</script>
+
+</body>
+</html> 
